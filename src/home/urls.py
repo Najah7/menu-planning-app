@@ -6,7 +6,12 @@ app_name = "Recipe Home"
 urlpatterns = [
     path(
         "",
-        views.RecipeListHome.as_view(),
+        views.RecipeListView.as_view(),
         name="recipe_list",
+    ),
+    path(
+        "<int:pk>",
+        views.RecipeDetailView.as_view(),
+        name="recipe_detail",
     ),
 ]

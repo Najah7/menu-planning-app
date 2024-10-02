@@ -1,9 +1,15 @@
-from django.views.generic import ListView
+from django.views.generic import DetailView, ListView
 
 from .models import RecipeBook
 
 
-class RecipeListHome(ListView):
+class RecipeListView(ListView):
     model = RecipeBook
     template_name = "home/recipe_list.html"
     context_object_name = "recipes"
+
+
+class RecipeDetailView(DetailView):
+    model = RecipeBook
+    context_object_name = "recipe"
+    template_name = "home/recipe_detail.html"

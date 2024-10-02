@@ -6,8 +6,13 @@ Recipe List
 
 {% block content %}
 
-{% for recipe in recipes %}
-<p> {{ recipe.recipeName }} </p>
-{% endfor %}
+<div class="recipies">
+  {% for recipe in recipes %}
+  <div class="recipe_item" onclick='location.href="/home/{{recipe.id}}";'>
+    <p> {{recipe.recipeName}} </p>
+    <img src="{{recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*">
+  </div>
+  {% endfor %}
+</div>
 
 {% endblock %}

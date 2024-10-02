@@ -1,0 +1,15 @@
+.recipies {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-evenly;
+}
+
+.recipe_item {
+  display: grid;
+  border: 2px solid;
+  border-color: black;
+  margin: 3px;
+  padding: 3px;
+  justify-content: center;
+  text-align: center;
+}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load home_extras %}
+
+{% block title %}
+{{recipe.recipeName}}
+{% endblock %}
+
+{% block content %}
+
+<img src="{{recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*">
+<p>{{recipe.recipeName}}</p>
+{% with recipe.ingredients|split:"、" as ingredients %}
+  {% for ingredient in ingredients %}
+    {{ ingredient }}<br>
+  {% endfor %}
+{% endwith %}
+
+{% endblock %}
