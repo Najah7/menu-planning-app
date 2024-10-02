@@ -1,0 +1,143 @@
+{
+    "children": [
+      {
+        "child": {
+          "genreId": 110472,
+          "genreLevel": 2,
+          "genreName": "米・雑穀"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100236,
+          "genreLevel": 2,
+          "genreName": "魚介類・水産加工品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100228,
+          "genreLevel": 2,
+          "genreName": "精肉・肉加工品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 200990,
+          "genreLevel": 2,
+          "genreName": "野菜・きのこ"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100246,
+          "genreLevel": 2,
+          "genreName": "フルーツ・果物"
+        }
+      },
+      {
+        "child": {
+          "genreId": 201085,
+          "genreLevel": 2,
+          "genreName": "卵"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100268,
+          "genreLevel": 2,
+          "genreName": "惣菜"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100256,
+          "genreLevel": 2,
+          "genreName": "麺類"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100293,
+          "genreLevel": 2,
+          "genreName": "パン・ジャム・シリアル"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100262,
+          "genreLevel": 2,
+          "genreName": "チーズ・乳製品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 201018,
+          "genreLevel": 2,
+          "genreName": "豆腐・納豆・こんにゃく"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100250,
+          "genreLevel": 2,
+          "genreName": "漬物・梅干し・キムチ"
+        }
+      },
+      {
+        "child": {
+          "genreId": 200911,
+          "genreLevel": 2,
+          "genreName": "練り物"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100300,
+          "genreLevel": 2,
+          "genreName": "調味料"
+        }
+      },
+      {
+        "child": {
+          "genreId": 507818,
+          "genreLevel": 2,
+          "genreName": "粉類"
+        }
+      },
+      {
+        "child": {
+          "genreId": 410901,
+          "genreLevel": 2,
+          "genreName": "乾物"
+        }
+      },
+      {
+        "child": {
+          "genreId": 507779,
+          "genreLevel": 2,
+          "genreName": "缶詰"
+        }
+      },
+      {
+        "child": {
+          "genreId": 507788,
+          "genreLevel": 2,
+          "genreName": "瓶詰"
+        }
+      },
+      {
+        "child": {
+          "genreId": 101769,
+          "genreLevel": 2,
+          "genreName": "その他"
+        }
+      }
+    ],
+    "current": {
+      "genreId": 100227,
+      "genreLevel": 1,
+      "genreName": "食品"
+    },
+    "parents": []
+  }

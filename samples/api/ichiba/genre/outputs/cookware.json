@@ -1,0 +1,101 @@
+{
+    "children": [
+      {
+        "child": {
+          "genreId": 566114,
+          "genreLevel": 2,
+          "genreName": "食器・カトラリー・グラス"
+        }
+      },
+      {
+        "child": {
+          "genreId": 558945,
+          "genreLevel": 2,
+          "genreName": "鍋・フライパン"
+        }
+      },
+      {
+        "child": {
+          "genreId": 559248,
+          "genreLevel": 2,
+          "genreName": "調理器具・製菓器具"
+        }
+      },
+      {
+        "child": {
+          "genreId": 407057,
+          "genreLevel": 2,
+          "genreName": "弁当箱・水筒"
+        }
+      },
+      {
+        "child": {
+          "genreId": 566068,
+          "genreLevel": 2,
+          "genreName": "配膳用品・キッチンファブリック"
+        }
+      },
+      {
+        "child": {
+          "genreId": 567214,
+          "genreLevel": 2,
+          "genreName": "料理用飾り花・葉"
+        }
+      },
+      {
+        "child": {
+          "genreId": 210238,
+          "genreLevel": 2,
+          "genreName": "業務用厨房機器・用品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100762,
+          "genreLevel": 2,
+          "genreName": "保存容器・調味料入れ"
+        }
+      },
+      {
+        "child": {
+          "genreId": 566115,
+          "genreLevel": 2,
+          "genreName": "コーヒー・お茶用品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 564992,
+          "genreLevel": 2,
+          "genreName": "ワイン・バー・酒用品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 100629,
+          "genreLevel": 2,
+          "genreName": "水まわり用品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 210167,
+          "genreLevel": 2,
+          "genreName": "キッチン整理用品"
+        }
+      },
+      {
+        "child": {
+          "genreId": 559275,
+          "genreLevel": 2,
+          "genreName": "その他"
+        }
+      }
+    ],
+    "current": {
+      "genreId": 558944,
+      "genreLevel": 1,
+      "genreName": "キッチン用品・食器・調理器具"
+    },
+    "parents": []
+  }

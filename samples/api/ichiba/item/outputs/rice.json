@@ -1,0 +1,741 @@
+{
+  "GenreInformation": [],
+  "Items": [
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "令和6年産♪「新米」！減農薬・減化学肥料栽培にこだわった新潟県産コシヒカリ！",
+        "creditCardFlag": 1,
+        "endTime": "2025-03-31 23:59",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "・ふるさと納税よくある質問はこちら ・寄付申込みのキャンセル、返礼品の変更・返品はできません。 　あらかじめご了承ください。 商品詳細 名称 【12ヶ月連続お届け】新潟県長岡産コシヒカリ8kg（特別栽培米） 産地名 新潟県長岡産 品種 コシヒカリ 産年 令和6年産 使用割合 単一原料米 内容量 令和6年産 新潟県長岡産コシヒカリ 精米8kg（精米5kg×1　精米3kg×1）×12ヶ月連続でお届け ※玄米での対応は出来かねます。 ※パッケージデザインは変更となる場合があります。 精米時期 別途商品ラベルに記載 賞味期限 お届け後1ヶ月程度 発送期限 ご入金確認後、2024年12月中旬頃より順次発送 毎月8kg×12ヶ月連続でお届け ※農作物ですので、天候や生育状況により前後する場合がございます。 詳細 ★令和6年産♪「新米」！ ★産地直送！安心・安全のJA品質！ ★毎月8kgずつ12回お届け！ ★特別栽培米♪ ★2024年12月中旬頃より発送開始！ 減農薬・減化学肥料栽培にこだわった 「新潟県長岡産特別栽培米コシヒカリ」です。 安全安心のお米を「JAえちご中越」からお届けいたします。 お米処 新潟県長岡産のブランド米を12ヶ月間、毎月お届けする定期便です。 提供 えちご中越農業協同組合",
+        "itemCode": "f152021-nagaoka:10001048",
+        "itemName": "【ふるさと納税】米 定期便 12ヶ月 白米 コシヒカリ 新潟 令和6年 新米 75-AN08Z【12ヶ月連続お届け】新潟県長岡産コシヒカリ8kg（特別栽培米）",
+        "itemPrice": 168000,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 168000,
+        "itemPriceMax2": 168000,
+        "itemPriceMax3": 168000,
+        "itemPriceMin1": 168000,
+        "itemPriceMin2": 168000,
+        "itemPriceMin3": 168000,
+        "itemUrl": "https://item.rakuten.co.jp/f152021-nagaoka/75-3n08z/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f152021-nagaoka/cabinet/shinmaiyoyaku24/75-n08zw700_12b.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f152021-nagaoka/cabinet/shinmaiyoyaku24/kome_info2_202412b.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f152021-nagaoka/cabinet/shinmaiyoyaku24/kome_info_202412b.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 0,
+        "reviewCount": 0,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "f152021-nagaoka",
+        "shopName": "新潟県長岡市",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/f152021-nagaoka/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f152021-nagaoka/cabinet/shinmaiyoyaku24/75-n08zw700_12b.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f152021-nagaoka/cabinet/shinmaiyoyaku24/kome_info2_202412b.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f152021-nagaoka/cabinet/shinmaiyoyaku24/kome_info_202412b.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "2024-09-12 12:00",
+        "tagIds": [
+          1003542,
+          1011174,
+          1011310,
+          1012162,
+          1016071,
+          1019201
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "日本有数の米処 庄内平野で育てた",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "≪こちらは6ヶ月連続の定期便です≫ 山形県庄内平野のおいしい水と空気で育まれた庄内産のはえぬきです。 「はえぬき」は一粒一粒がしっかりとして、弾力感のある歯ごたえが魅力。甘みは控えめであっさりとしているので、和食に合う飽きのこないお米です。 庄内の豊かな自然と、代々受け継がれてきた農家の技術が育てた庄内米をぜひご賞味下さい。 ※ご希望月の中旬（11〜20日）にお届け致します。 名称 精米 産地 山形県庄内 品種 はえぬき 産年 2024年10月～2025年09月配送：令和6年産 2025年10月～2026年09月配送：令和7年産 2026年10月～2027年09月配送：令和8年産 ※毎年10月に新米への切替を予定しておりますが、天候や作柄によって前後する場合がございます。予めご了承ください。 使用割合 単一原料米 内容量 10kg（5kg×2袋）×6ヶ月　計60kg ※ご希望月の中旬（11〜20日）にお届け致します。 精米時期 米袋に記載 注意事項 美味しくお召し上がりいただくために、発送日より1ヶ月以内にお召し上がりください。 販売者 JA庄内みどり ・ふるさと納税よくある質問はこちら ・寄附申込みのキャンセル、返礼品の変更・返品はできません。あらかじめご了承ください。日本有数の米処 庄内平野で育てた 【ふるさと納税】≪新米予約≫ ≪6ヶ月定期便≫ はえぬき 10kg×6ヶ月 計60kg 山形県庄内産 毎月中旬にお届け",
+        "itemCode": "f062049-sakata:10001571",
+        "itemName": "【ふるさと納税】≪新米予約≫ ≪6ヶ月定期便≫ はえぬき 10kg×6ヶ月 計60kg 山形県庄内産 毎月中旬にお届け 米 お米 精米 白米 定期便 農協 JA",
+        "itemPrice": 86000,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 86000,
+        "itemPriceMax2": 86000,
+        "itemPriceMax3": 86000,
+        "itemPriceMin1": 86000,
+        "itemPriceMin2": 86000,
+        "itemPriceMin3": 86000,
+        "itemUrl": "https://item.rakuten.co.jp/f062049-sakata/8900-30010439/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/8900-30010439-001.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/8900-30010439-02.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/komekyoutuu-1.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 0,
+        "reviewCount": 0,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "f062049-sakata",
+        "shopName": "山形県酒田市",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/f062049-sakata/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/8900-30010439-001.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/8900-30010439-02.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/komekyoutuu-1.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003533,
+          1011174,
+          1011316,
+          1012162,
+          1019199,
+          1045580
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "「ななつぼし」ふっくらとした食感で、味、つや、香りなどに優れたお米！ただ単に、美味しいのではなく粘りや甘みのバランスが抜群で冷めてもおいしいのが特徴",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "※精米すると米ぬか分が内容量から減りますのでご了承ください。 玄米を精米した内容量：白米にする（約27kg） 7分づき（約27.9kg） 5分づき（約28.5kg） 3分づき（約29.1kg） ただ単に、美味しいのではなく粘りや甘みのバランスが抜群で冷めてもおいしいのが特徴！お米の代表格といえば新潟コシヒカリが有名ですが、最近の北海道米は年々品質が向上しとってもおいしくなっています。このななつぼしも、粘りと、つや、香り、そして甘みが特徴のとてもおいしいお米です。冷めてもおいしく、お弁当やおにぎりなどにも最適です。 ■名称 玄米 ■産地・原料 北海道（単一原料米） ■品種 ななつぼし ■産年 令和6年産 ■精米時期 米袋表示面下部に記載 ■内容量 5kg×6袋 合計30kg ■お米の取り扱い 直射日光を避けて、涼しい場所に保管して下さい。米は湿気を嫌いますので保管にご注意下さい。米びつ・容器等は、虫等の発生を防ぐためにもこまめに清掃して下さい。臭いの移る可能性：臭いの強い洗剤、灯油などはそばに於かないで下さい。お買い求め後は、お早めにお召し上がり下さい。 ■真空パック梱包 ご希望のお客様は何袋を真空パックにするかをご選択ください。 ※梱包の数量によって別途料金が加算されます。 「真空パック」梱包の場合、配送中による障害で空気が入る事があります。お米がお手元に届いたときに空気が入ってしまった場合は、真空パック料金をお返し致しますので、お手数ですが当店までご連絡下さい。真空漏れ（空気が入った場合）の際は、商品の特性上お取り換え、返品、交換は出来ませんのでご了承ください。 ■配送について 北海道 / 発送日より翌日 東北・関東 / 発送日より2日後 信越・北陸 / 発送日より3日後 東海・関西 / 発送日より3日後 中国・四国 / 発送日より4〜5日後 九州 / 発送日より6〜7日後 ※沖縄・その他離島は別途送料1,000円 ※複数個のご注文を頂いた場合は1つのダンボールにまとめてお送りする場合がございます。 ■精米 お届けの精米度合いを選択して下さい。「玄米のまま」「白米にする」「7分搗き」「5分搗き」「3分搗き」のいずれかを指定して下さい。※精米すると米ぬか分が内容量から減りますのでご了承ください。 ■荷姿 小分け荷姿（2kg袋・10kg袋）での お届けは大変申し訳ございませんが お受け出来ませんのでご注意ください。ただ単に、美味しいのではなく粘りや甘みのバランスが抜群で冷めてもおいしいのが特徴。 お米の代表格といえば新潟コシヒカリが有名ですが、最近の北海道米は年々品質が向上しとってもおいしくなっています。このななつぼしも、粘りと、つや、香り、そして甘みが特徴のとてもおいしいお米です。冷めてもおいしく、お弁当やおにぎりなどにも最適です。米の食味ランキングで「特Aランク」の評価。 北海道米はお米の収穫量もNO.1ですが「おいしさ」でも新潟産コシヒカリにも引けをとらない存在になりつつあります。食味ランキングは日本穀物検定協会が1971年から毎年実施しており、専門家が実際に試食して、コメの外観や味、粘りなど5項目の総合評価で決めています。 ■搗きたてそのまま真空パックサービス ■お届け時の空気の混入について お客様にお米の美味しさをより味わって頂くために、真空パック（脱酸素剤入り）のサービスをはじめました。お米は、なんと言っても精米したてが一番美味しく、時間が経つにつれて味や香りが低下していきます。また、夏場や湿気によりお米に虫が湧いてしまう事もあります。しかし、真空パックでご自宅に保管して頂くことにより、お米の品質劣化を防ぎ、より搗き立ての状態に近いお米の味や香りを堪能して頂くことが出来ます。お米をより美味しく召し上がって頂くために、ぜひ真空パックでの購入をおすすめ致します。 真空パック（脱酸素剤入り）に使用していますお米の袋は「R」型三方シールと言う落下強度がありピンホール（小さい穴）が起きにくくフィルム強度がバツグンの袋を使用しています。しかしそれでも配送中による障害で空気が入る事があります。お米がお手元に届いたときに空気が入ってしまった場合は、真空パック料金をお返し致しますので、お手数ですが当店までご連絡下さい。真空漏れ（空気が入った場合）の際は、商品の特性上お取り換え、返品、交換は出来ませんのでご了承ください。 ■真空パックの保存期限・保存方法 ■真空パックの料金について 真空パック（脱酸素剤入り）での保存期間は真空にする事によりお米の呼吸が止まり、約5カ月の長期保存が可能になります。分付き精米は細かいヌカが付着している為、長期保存には不向きな商品です。長期保存の場合は玄米の真空パックをおすすめ致します。お米は気温、室温の上昇による劣化が激しい商品です。真空パックで長期保管出来ますが、必ず直射日光の当たらない涼しい場所に保管してください（15℃以下） 真空パック（脱酸素剤入り）をご希望の方は、5kg（1袋）につき65円（税込）の 料金がかかります。 ■真空パック一袋無料キャンペーン中 真空パック（脱酸素剤入り）をご希望の方は、通常5kg（1袋）につき65円（税込）の料金を頂いておりますが、「一袋無料」キャンペーンを開催中です。 ●お客様にお米の美味しさをより味わって頂くために、最初の1袋を無料にて真空パック梱包させて頂きます。詳細はこちら",
+        "itemCode": "kawasaki-beikoku:10000038",
+        "itemName": "新米 令和6年産 北海道産 ななつぼし 玄米 30kg (5kg×6袋セット)＜玄米／白米／分づき米＞【送料無料】【北海道米 送料込み 米 お米 真空パック選択可】",
+        "itemPrice": 17980,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 17980,
+        "itemPriceMax2": 17980,
+        "itemPriceMax3": 17980,
+        "itemPriceMin1": 17980,
+        "itemPriceMin2": 17980,
+        "itemPriceMin3": 17980,
+        "itemUrl": "https://item.rakuten.co.jp/kawasaki-beikoku/gen-010/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kawasaki-beikoku/cabinet/top/04725866/301nana30gw.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kawasaki-beikoku/cabinet/top/04725866/17-n004.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kawasaki-beikoku/cabinet/sphone/sp1/2020sp-nanatsu1.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 4.64,
+        "reviewCount": 2539,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "kawasaki-beikoku",
+        "shopName": "ぎんしゃり屋",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/kawasaki-beikoku/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kawasaki-beikoku/cabinet/top/04725866/301nana30gw.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kawasaki-beikoku/cabinet/top/04725866/17-n004.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/kawasaki-beikoku/cabinet/sphone/sp1/2020sp-nanatsu1.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003528,
+          1003756,
+          1011174,
+          1011322,
+          1011606,
+          1011609,
+          1045580,
+          1037390
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "鬼怒川流域の肥沃な土壌で育った自慢のお米です！",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "鬼怒川流域の肥沃な土壌で育った自慢のお米です！ 令和6年産米をお届けします！ 筑波山を望む鬼怒川流域の肥沃な土壌で育った、茨城県産のお米です。 5kg×2袋 or 4袋と小分けになっているので、保存もしやすく、使い勝手もバツグンです。 ぜひ、茨城県産のお米の風味豊かな味わいをお楽しみください。 ■関東屈指の米どころ　茨城県 茨城県は、温暖な気候と、久慈川、那珂川、小貝川、鬼怒川、利根川などの水の潤いに恵まれ、その土地柄を生かして、古くより稲作が盛んに行われてきました。 長い歴史と豊かな風土が、美味しい「いばらきのお米」を育んでおり、今では関東屈指の米どころとなっています。 商品詳細 名称 選べるお米10kg 5kgx2袋 20kg 5kg×4袋 令和6年産 新米 内容量 以下よりお選びください。 ・コシヒカリ　10kg（5kg×2袋） ・コシヒカリ　20kg（5kg×4袋） ・あきたこまち　10kg（5kg×2袋） ・にじのきらめき 10kg（5kg×2袋） ・ミルキークイーン 10kg（5kg×2袋） ・食べ比べ　10kg（コシヒカリ、あきたこまち 5kg×各1袋） ・食べ比べ　20kg（コシヒカリ5kg×2袋、あきたこまち5kg×1袋、にじのきらめきorミルキークイーン5kg×1袋） 注意事項 ■お米の保存方法 精米は温度、湿度、臭いなどの影響を受けやすく、保存の期間、場所、環境によっては品質が劣化することがあります。 そのため、ご家庭では密閉した容器に移し替え、温度が15℃以下の冷蔵庫等での保管をお勧めします。 特に気温が高い夏場は、虫が発生しやすいのでご注意ください。 ■お届け後の返品・交換について 到着後は、すぐに開封して全体をご確認ください。 万が一、虫の混入や変色など異常がございましたら、1週間以内に写真（画像）を添付のうえ電子メールにてご連絡をお願いいたします。 お届け後、1週間を経過してのお問合せにつきましては、返品・交換の対象外となりますので、予めご了承の上お申し込みください。 別送される場合は、上記の旨を必ず寄附者様より受取人様へご説明いただけますようお願いいたします。 日数が経ったものに関しましては対応いたしかねます。 また不備等があった場合は食べたり、飲んだり、捨てたりせず、対応が決まるまで保管をお願いします。 保管されてない場合、代替品での対応等が難しい場合がございます。 ご連絡先：yachiyo@furusato-g.com 賞味期限 精米日（精米時期）より概ね1ヵ月を目安に、お早めにお召し上がりください。 保存方法 密閉した容器に移し替え、高温・多湿・直射日光を避けて、温度が15℃以下の冷蔵庫等で保管してください。 申込期日 在庫がなくなり次第終了 ※オンライン決済限定 配送 常温配送 2024年10月月内、お申込み順に発送 商品提供 株式会社はなまるBASE 地場産品類型：4 類型該当理由：区域内で生産された米が当町を含む範囲を管轄する精米業者に集荷、格付けされ混在が避けられない ふるさと納税よくある質問はこちら 寄附申込みのキャンセル、返礼品の変更・返品はできません。あらかじめご了承ください。 ※下記の「商品仕様」は、AIによって判断されたデータのため、上記の商品情報にてご確認ください。選べるお米10kg 5kgx2袋 20kg 5kg×4袋 令和6年産 新米 寄附金の使い道について 福祉に関すること（健康、医療、子育て支援、高齢者福祉など） 生活環境に関すること（防災、交通安全、環境保全、道路整備など） 教育に関すること（教育、生涯学習、文化、スポーツなど） 産業に関すること（農業、商業、工業、雇用、観光、消費生活など） 協働に関すること（コミュニティ、人権、情報化、行財政運営など） 特に指定しない（町政全般に活用） 受領書・ワンストップ特例のお届けについて 入金確認後、【注文者情報】に記載の住所にお送りいたします。 発送の時期は、入金確認後2週間程度を目途に、お礼の特産品とは別にお送りいたします。",
+        "itemCode": "f085219-yachiyo:10000584",
+        "itemName": "【ふるさと納税】選べるお米10kg 5kgx2袋 20kg 5kg×4袋 令和6年産 新米 10月発送 先行予約 こしひかり あきたこまち にじのきらめき ミルキークイーン 食べ比べ 白米 精米 茨城県 八千代町",
+        "itemPrice": 14000,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 28000,
+        "itemPriceMax2": 28000,
+        "itemPriceMax3": 28000,
+        "itemPriceMin1": 14000,
+        "itemPriceMin2": 14000,
+        "itemPriceMin3": 14000,
+        "itemUrl": "https://item.rakuten.co.jp/f085219-yachiyo/ak016ya/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f085219-yachiyo/cabinet/08358267/10573599/10573602/sf011ya-sku-1rakuten.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f085219-yachiyo/cabinet/08358267/10573599/10573602/sf011ya-sku-2.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f085219-yachiyo/cabinet/08358267/10573599/10573602/sf011ya-sku-3.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 3.76,
+        "reviewCount": 49,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "f085219-yachiyo",
+        "shopName": "茨城県八千代町",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/f085219-yachiyo/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f085219-yachiyo/cabinet/08358267/10573599/10573602/sf011ya-sku-1rakuten.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f085219-yachiyo/cabinet/08358267/10573599/10573602/sf011ya-sku-2.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f085219-yachiyo/cabinet/08358267/10573599/10573602/sf011ya-sku-3.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003535,
+          1045580,
+          1037390,
+          1011174,
+          1013054,
+          1011310
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "米 10kg 送料無料 白米 無洗米 長期保存極みパック 選択可",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "【精米日訳ありセール】精米日訳ありセール中です。在庫限り、精米日が9月上旬のものをお届けいたします。 ちょっぴりセレブなコシヒカリ、その他のサイズはこちら▼・5kg ・10kg ・20kg ・30kg ・無洗米商品名ちょっぴりセレブなコシヒカリ10kg名称精米原料玄米：産地熊本県、高知県、三重県、愛知県、茨城県、千葉県のいずれか原料玄米：品種コシヒカリ原料玄米：産年6年産原料玄米：使用割合単一原料米 100%内容量精米10kg（5kg×2袋）精米時期別途商品ラベルに記載（精米日の指定ができない為、極パックをお勧めいたします）保存方法【通常包装】●温度の高い場所を避け、密閉容器に移し15℃以下で保管して下さい。(袋のままの保存はNG)●お米は湿気を吸い易く、カビ等の原因になりますので保管にご注意下さい。●保管容器は、虫の発生を防ぐためにも、こまめに清掃して下さい。●お米は臭いを吸着し易い食品です。臭いの強い食品や洗剤、灯油などのそばには置かないで下さい。●開封・未開封に関わらず品質保証は商品到着後7日以内となります。保管方法の詳しくはこちら【極パック包装】●冷暗所での保管。●未開封であれば約180日ほどフレッシュにいただけます。",
+        "itemCode": "fuchigami:10000359",
+        "itemName": "【精米日訳あり(9月上旬)セール！】新米 米 10kg 送料無料 コシヒカリ 国内産 令和6年産 ちょっぴりセレブシリーズ こしひかり 米 10kg 送料無料 白米 無洗米 お米 10kg 送料無料 米10kg 送料無料 こめたつ 備蓄米 非常用",
+        "itemPrice": 5999,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 6199,
+        "itemPriceMax2": 6199,
+        "itemPriceMax3": 6199,
+        "itemPriceMin1": 5999,
+        "itemPriceMin2": 5999,
+        "itemPriceMin3": 5999,
+        "itemUrl": "https://item.rakuten.co.jp/fuchigami/koshi-srv10/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/srv/koshi/imgrc0093244330.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/srv/koshi/r6-skoshi-fl-1.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/srv/koshi/r6-skoshi-fl-10.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 4.66,
+        "reviewCount": 513,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "fuchigami",
+        "shopName": "こめたつ",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/fuchigami/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/srv/koshi/imgrc0093244330.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/srv/koshi/r6-skoshi-fl-1.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/srv/koshi/r6-skoshi-fl-10.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003755,
+          1011174,
+          1011310
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "発送期間が選べる！日本有数の米処 庄内平野で育てました",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "山形県庄内平野のおいしい水と空気で育まれた庄内産のはえぬきです。 「はえぬき」は甘みは控えめであっさりとしているので、和食に合う飽きのこないお米です。 一粒一粒がしっかりとして、弾力感のある歯ごたえが魅力。 安定したおいしさで、山形県を代表するお米「はえぬき」。 地元遊佐町の精米センターで精米したはえぬきを、6ヶ月連続でお届けします。 ※ご希望期間の毎月中旬（11日～20日）に6ヶ月連続でお届けします。 名称 精米 産地 山形県庄内産 品種 はえぬき 産年 2024年10月～2025年09月配送：令和6年産 2025年10月～2026年09月配送：令和7年産 2026年10月～2027年09月配送：令和8年産 ※毎年10月に新米への切替を予定しておりますが、天候や作柄によって前後する場合がございます。予めご了承ください。 使用割合 単一原料米 内容量 5kg×1袋×6ヶ月連続 計30kg 精米年月日 別途商品下部に記載 賞味期限 お米は生鮮食品です。 発送日から1か月を目安に早めにお召し上がりください。 販売者 庄内みどり農業協同組合 ・寄附申込みのキャンセル、返礼品の変更・返品はできません。あらかじめご了承ください。 ・ふるさと納税よくある質問はこちら発送期間が選べる！日本有数の米処 庄内平野で育てました 【ふるさと納税】≪新米予約≫ ≪6ヶ月定期便≫ はえぬき5kg×6ヶ月連続 計30kg 山形県庄内産 ご希望期間の毎月中旬頃お届け",
+        "itemCode": "f064611-yuza:10000380",
+        "itemName": "【ふるさと納税】≪新米予約≫ ≪6ヶ月定期便≫ はえぬき5kg×6ヶ月連続 計30kg 山形県庄内産 ご希望期間の毎月中旬頃お届け JA 農協 産地直送 精米 白米 庄内米 東北 遊佐町",
+        "itemPrice": 43000,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 43000,
+        "itemPriceMax2": 43000,
+        "itemPriceMax3": 43000,
+        "itemPriceMin1": 43000,
+        "itemPriceMin2": 43000,
+        "itemPriceMin3": 43000,
+        "itemUrl": "https://item.rakuten.co.jp/f064611-yuza/2001-00203-00/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00203-1.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00203-2.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item/2001-00001-00-14.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 4.61,
+        "reviewCount": 23,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "f064611-yuza",
+        "shopName": "山形県遊佐町",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/f064611-yuza/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00203-1.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00203-2.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item/2001-00001-00-14.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003533,
+          1003756,
+          1011174,
+          1011316,
+          1012162,
+          1045580
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "日本有数の米処 庄内平野で育てたお米",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "山形県庄内平野のおいしい水と空気で育まれた庄内産のはえぬきです。 「はえぬき」は一粒一粒がしっかりとして、弾力感のある歯ごたえが魅力。甘みは控えめであっさりとしているので、和食に合う飽きのこないお米です。 庄内の豊かな自然と、代々受け継がれてきた農家の技術が育てた庄内米をぜひご賞味下さい。 ※着日指定は出来かねます。 名称 精米 産地 山形県庄内 品種 はえぬき 産年 令和6年産 使用割合 単一原料米 内容量 5kg×2袋 計10kg 精米時期 米袋に記載 注意事項 美味しくお召し上がりいただくために、発送日より1ヶ月以内にお召し上がりください。 販売者 JA庄内みどり ・ふるさと納税よくある質問はこちら ・寄附申込みのキャンセル、返礼品の変更・返品はできません。あらかじめご了承ください。日本有数の米処 庄内平野で育てたお米 【ふるさと納税】≪新米予約≫ はえぬき 5kg×2袋 計10kg 令和6年産米 山形県庄内産 ご希望の時期頃にお届け",
+        "itemCode": "f062049-sakata:10001005",
+        "itemName": "【ふるさと納税】≪新米予約≫ はえぬき 5kg×2袋 計10kg 令和6年産米 山形県庄内産 ご希望の時期頃にお届け 米 お米 精米 白米 農協 JA 発送時期が選べる",
+        "itemPrice": 14000,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 14000,
+        "itemPriceMax2": 14000,
+        "itemPriceMax3": 14000,
+        "itemPriceMin1": 14000,
+        "itemPriceMin2": 14000,
+        "itemPriceMin3": 14000,
+        "itemUrl": "https://item.rakuten.co.jp/f062049-sakata/8900-30007912/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/8900-30007912-0000.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f062049-sakata/cabinet/8900/8900-30007912pr1-00.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f062049-sakata/cabinet/8900/8900-30007912pr2-00.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 4.59,
+        "reviewCount": 319,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "f062049-sakata",
+        "shopName": "山形県酒田市",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/f062049-sakata/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_gold/f062049-sakata/henreihin/8900-30007912-0000.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f062049-sakata/cabinet/8900/8900-30007912pr1-00.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f062049-sakata/cabinet/8900/8900-30007912pr2-00.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003533,
+          1003755,
+          1011174,
+          1011316,
+          1012162,
+          1045580
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "13年連続食味ランキング最高位「特Aランク」精米ななつぼしの定期便です。毎月中旬にお届けします。",
+        "creditCardFlag": 1,
+        "endTime": "2024-11-30 23:59",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "※ご注意※ 令和6年産のため初回発送は2025年1月を予定しております。 〇ななつぼしについて 生産量・消費量・食味とも北海道を代表する「ななつぼし」は甘みと粘りのバランスがよくあっさりとした食感です。洋食や和食など様々な料理と相性がよいオールラウンドな品種で、冷めてもおいしくお弁当などにも適しています。 お米の食味ランキング（日本穀物検定協会）では最高位の「特Aランク」に平成22年から13年連続で評価を受けている品種です。 ＊本返礼品そのものの評価ではありません。 〇雪中米について 降雪量の多い沼田町では、米の貯蔵に雪冷房を導入した世界初の施設である「スノークールライスファクトリー」を平成8年に完成させました。 沼田町で収穫したお米は籾のまま「スノークールライスファクトリー」に貯蔵され、「雪中米（せっちゅうまい）」のブランド名で親しまれています。 「雪中米」は雪の冷気により温度と湿度が一定に保たれるため品質の劣化を防ぎ、一年中新米の味と香りを楽しむことができます。 また「雪中米」は、豊富な雪解け水に育まれた緑豊かな田園で大切に育てられ、昔ながらの「はさがけ米」を手本にゆっくりと時間をかけて乾燥させ、お米の風味を逃がさないように都度、籾摺りしてお届けする特別なお米です。 出荷直前に精米を行い、精米後1週間以内に発送いたします。 〇皇室献上米の地 宮中祭祀の新嘗祭(にいなめさい)に献上するお米の献穀田として平成30年に沼田町が選ばれ、皇室に新米「ななつぼし」を献上しました。 皇室献上米の地からお送りするお米をぜひお楽しみください。 商品説明 名称 ななつぼし 雪中米 【精米】 産地 北海道産 品種 ななつぼし 産年 令和6年 使用割合 単一原料米 内容量 1回あたりの届け ・5kg（5kg×1袋） または ・10kg（5kg×2袋） 精米年月日 商品ラベルに記載 保存方法 ※お米は生鮮食品などと同様に生きています。 保存につきましては、密閉容器に入れて冷蔵庫で保存いただくと、鮮度が保持されやすくなります。 冷蔵が無理な場合は、温度・湿度の低い暗い風通しの良い場所で保存願います。 お米の保存期限につきましては、冬季：2ヶ月、春季・秋季：1ヶ月以内が目安となり、夏季はさらに短くなります。 注：雪中米は食味向上のため、自然乾燥（はさかけ）に近い方法で玄米を調製しておりますので、水分含有量が多めになっております。そのため、保管状況によっては通常より劣化が早くなる可能性がありますので、お早めにお召し上がりください。 発送について ※ご注意※ 令和6年産のため初回発送は2025年1月を予定しております。 発送開始月をお選びください。発送開始月より毎月中旬に発送いたします。 発送スケジュールにつきましては沼田町の公式ホームページにて発送予定カレンダーを公開しております。 「沼田町 ふるさと納税 雪中米 発送予定」で検索ください。 ※配送月の変更はできませんのであらかじめご了承願います。 提供者 株式会社まちづくりぬまた 北海道雨竜郡沼田町南一条3丁目5番1号 地場産品に該当する理由 区域内で生産された米であるため（告示第5条第1号に該当） ・ふるさと納税よくある質問はこちら ・寄付申込みのキャンセル、返礼品の変更・返品はできません。あらかじめご了承ください。 類似商品はこちら ななつぼし 精米 選べる容量（2kg・5kg・10kg・20kg） 7,000円～ ななつぼし 無洗米 選べる容量（2kg・5kg・10kg・20kg）7,000円～ ななつぼし 玄米 選べる容量（5kg・10kg・20kg）9,000円～「ふるさと納税」寄付金は、下記の事業を推進する資金として活用してまいります。 寄付を希望される皆さまの想いでお選びください。 (1)町長おまかせ事業 (2)いつまでも幸せに暮らせるまちづくり【健康・医療・福祉・子育て】 (3)にぎわいのあるまちづくり【産業・しごと・観光振興・移住定住】 (4)希望を育むまちづくり【教育・文化・スポーツ】 (5)安心・安全に暮らせるまちづくり【安心・安全・環境】 (6)町民とともにつくるまちづくり【協働・行財政】 (7)JR留萌本線利用促進に関する事業 ご希望がなければ、町長おまかせ事業に活用いたします。 入金確認後、注文内容確認画面の【注文者情報】に記載の住所にお送りいたします。 発送の時期は、寄付確認後2週間を目途に、お礼の特産品とは別にお送りいたします。",
+        "itemCode": "f014389-numata:10000119",
+        "itemName": "【ふるさと納税】＜容量・定期便回数・発送月が選べる＞ 令和6年産 ななつぼし 精米 1回あたり（5kg・10kg） 定期便 （4ヶ月・8ヶ月） 雪冷気 籾貯蔵 北海道 雪中米 特Aランク 米 お米 白米 ご飯 ごはん 北海道米 ブランド米【2025年1月より順次発送予定】",
+        "itemPrice": 45000,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 152000,
+        "itemPriceMax2": 76000,
+        "itemPriceMax3": 76000,
+        "itemPriceMin1": 45000,
+        "itemPriceMin2": 45000,
+        "itemPriceMin3": 45000,
+        "itemUrl": "https://item.rakuten.co.jp/f014389-numata/3044-01/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f014389-numata/cabinet/rice/3044-01_00_c.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f014389-numata/cabinet/rice/3044-01_01.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f014389-numata/cabinet/rice/2024_10_chuui.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 1,
+        "reviewAverage": 5,
+        "reviewCount": 2,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "f014389-numata",
+        "shopName": "北海道沼田町",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/f014389-numata/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f014389-numata/cabinet/rice/3044-01_00_c.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f014389-numata/cabinet/rice/3044-01_01.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f014389-numata/cabinet/rice/2024_10_chuui.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "2024-08-31 00:00",
+        "tagIds": [
+          1003528,
+          1011174,
+          1011322,
+          1011609,
+          1045580
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "発送期間が選べる！日本有数の米処 庄内平野で育てました",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "山形県庄内平野のおいしい水と空気で育まれた庄内産のはえぬきです。 「はえぬき」は甘みは控えめであっさりとしているので、和食に合う飽きのこないお米です。 一粒一粒がしっかりとして、弾力感のある歯ごたえが魅力。 安定したおいしさで、山形県を代表するお米「はえぬき」。 地元遊佐町の精米センターで精米したはえぬきを、12ヶ月連続でお届けします。 ※ご希望期間の毎月中旬（11日～20日）に12ヶ月連続でお届けします。 名称 精米 産地 山形県庄内産 品種 はえぬき 産年 2024年10月～2025年09月配送：令和6年産 2025年10月～2026年09月配送：令和7年産 2026年10月～2027年09月配送：令和8年産 ※毎年10月に新米への切替を予定しておりますが、天候や作柄によって前後する場合がございます。予めご了承ください。 使用割合 単一原料米 内容量 5kg×1袋×12ヶ月連続 計60kg 精米年月日 別途商品下部に記載 賞味期限 お米は生鮮食品です。 発送日から1か月を目安に早めにお召し上がりください。 販売者 庄内みどり農業協同組合 ・寄附申込みのキャンセル、返礼品の変更・返品はできません。あらかじめご了承ください。 ・ふるさと納税よくある質問はこちら発送期間が選べる！日本有数の米処 庄内平野で育てました 【ふるさと納税】≪新米予約≫ ≪12ヶ月定期便≫ はえぬき5kg×12ヶ月連続 計60kg 山形県庄内産 ご希望期間の毎月中旬頃お届け",
+        "itemCode": "f064611-yuza:10000382",
+        "itemName": "【ふるさと納税】≪新米予約≫ ≪12ヶ月定期便≫ はえぬき5kg×12ヶ月連続 計60kg 山形県庄内産 ご希望期間の毎月中旬頃お届け JA 農協 産地直送 精米 白米 庄内米 東北 遊佐町",
+        "itemPrice": 86000,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 86000,
+        "itemPriceMax2": 86000,
+        "itemPriceMax3": 86000,
+        "itemPriceMin1": 86000,
+        "itemPriceMin2": 86000,
+        "itemPriceMin3": 86000,
+        "itemUrl": "https://item.rakuten.co.jp/f064611-yuza/2001-00204-00/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00204-1.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00204-2.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item/2001-00001-00-14.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 4.78,
+        "reviewCount": 9,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "f064611-yuza",
+        "shopName": "山形県遊佐町",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/f064611-yuza/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00204-1.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item3/2001-00204-2.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/f064611-yuza/cabinet/item/2001-00001-00-14.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003533,
+          1011174,
+          1011316,
+          1012162,
+          1019199,
+          1045580
+        ],
+        "taxFlag": 0
+      }
+    },
+    {
+      "Item": {
+        "affiliateRate": 4,
+        "affiliateUrl": "",
+        "asurakuArea": "",
+        "asurakuClosingTime": "",
+        "asurakuFlag": 0,
+        "availability": 1,
+        "catchcopy": "米 10kg 送料無料 白米 無洗米 長期保存極みパック 選択可",
+        "creditCardFlag": 1,
+        "endTime": "",
+        "genreId": "201184",
+        "giftFlag": 0,
+        "imageFlag": 1,
+        "itemCaption": "【精米日訳ありセール】無洗米10kg以外、精米日訳ありセール中です。在庫限り、精米日が9月上旬のものをお届けいたします。無洗米10kgの商品につきましては、新しく精米したものをお届けいたします。 【配送について】こちらの一部商品は、只今ご注文殺到中の為「4営業日以内の発送予定」となります。翌日配送は一時中止しておりますので何卒ご了承くださいませ。 熊本県産キヌヒカリその他のサイズはこちら・5kg　・10kg　・20kg　・30kg商品名熊本県産キヌヒカリ10kg名称精米原料玄米：産地熊本県産原料玄米：品種キヌヒカリ原料玄米：産年6年産原料玄米：使用割合単一原料米内容量10kg精米時期別途商品ラベルに記載「〇年〇月上/中/下」の表記保存方法【通常包装】●温度の高い場所を避け、密閉容器に移し15℃以下で保管して下さい。(袋のままの保存はNG)●お米は湿気を吸い易く、カビ等の原因になりますので保管にご注意下さい。●保管容器は、虫の発生を防ぐためにも、こまめに清掃して下さい。●お米は臭いを吸着し易い食品です。臭いの強い食品や洗剤、灯油などのそばには置かないで下さい。●開封・未開封に関わらず品質保証は商品到着後7日以内となります。保管方法の詳しくはこちら【極パック包装】●冷暗所での保管。●未開封であれば約180日ほどフレッシュにいただけます。",
+        "itemCode": "fuchigami:10000067",
+        "itemName": "【精米日訳あり(9月上旬)セール！】新米 米 10kg 送料無料 キヌヒカリ 熊本県産 令和6年産 きぬひかり 米 10kg 送料無料 無洗米 白米 お米 10kg 送料無料 米10kg 送料無料 こめたつ 備蓄米 非常用",
+        "itemPrice": 5999,
+        "itemPriceBaseField": "item_price_min3",
+        "itemPriceMax1": 7280,
+        "itemPriceMax2": 7280,
+        "itemPriceMax3": 7280,
+        "itemPriceMin1": 5999,
+        "itemPriceMin2": 5999,
+        "itemPriceMin3": 5999,
+        "itemUrl": "https://item.rakuten.co.jp/fuchigami/kinu-10/?rafcid=wsc_i_is_1003118371091832102",
+        "mediumImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/kinup/imgrc0093079062.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/kinup/r6-kinu-1.jpg?_ex=128x128"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/kinup/r6-kinu-2.jpg?_ex=128x128"
+          }
+        ],
+        "pointRate": 1,
+        "pointRateEndTime": "",
+        "pointRateStartTime": "",
+        "postageFlag": 0,
+        "reviewAverage": 4.49,
+        "reviewCount": 434,
+        "shipOverseasArea": "",
+        "shipOverseasFlag": 0,
+        "shopAffiliateUrl": "",
+        "shopCode": "fuchigami",
+        "shopName": "こめたつ",
+        "shopOfTheYearFlag": 0,
+        "shopUrl": "https://www.rakuten.co.jp/fuchigami/?rafcid=wsc_i_is_1003118371091832102",
+        "smallImageUrls": [
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/kinup/imgrc0093079062.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/kinup/r6-kinu-1.jpg?_ex=64x64"
+          },
+          {
+            "imageUrl": "https://thumbnail.image.rakuten.co.jp/@0_mall/fuchigami/cabinet/kinup/r6-kinu-2.jpg?_ex=64x64"
+          }
+        ],
+        "startTime": "",
+        "tagIds": [
+          1003755,
+          1011174,
+          1011312,
+          1011607,
+          1011606,
+          1003570
+        ],
+        "taxFlag": 0
+      }
+    }
+  ],
+  "TagInformation": [],
+  "carrier": 0,
+  "count": 948258,
+  "first": 1,
+  "hits": 10,
+  "last": 10,
+  "page": 1,
+  "pageCount": 100
+}
