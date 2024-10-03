@@ -11,7 +11,10 @@
 <p>{{recipe.recipeName}}</p>
 {% with recipe.ingredients|split:"、" as ingredients %}
   {% for ingredient in ingredients %}
-    {{ ingredient }}<br>
+    <a href="{% url 'external:rakuten_ichiba_item_search' %}?grocery_name={{ ingredient }}" target="_blank">
+      {{ ingredient }}
+    </a>
+    <br>
   {% endfor %}
 {% endwith %}
 
