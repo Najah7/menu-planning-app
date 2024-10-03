@@ -26,4 +26,9 @@ urlpatterns = [
         login_required(login_required(views.PersonalView.as_view())),
         name="personal",
     ),
+    path(
+        "weekly_recipe_list/",
+        views.WeeklyRecipeListView.as_view(),
+        name='weekly_recipe_list',
+    ),
 ]
