@@ -32,7 +32,7 @@ nav ul li a:hover {
 
 .recipies {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   justify-content: space-evenly;
 }
 
