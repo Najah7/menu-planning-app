@@ -2,6 +2,8 @@ from django.views.generic import DetailView, ListView, TemplateView
 
 from .models import RecipeBook
 
+import random
+
 
 class RecipeListView(ListView):
     model = RecipeBook
