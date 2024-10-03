@@ -212,38 +212,3 @@ form ul li {
   font-size: 15px;
   font-weight: bold;
 }
-
-/* 背景スライダーのサイズを設定 */
-.swiper {
-  position: relative;
-  width: 100%;
-  height: 100vh; /* 高さを全画面に設定 */
-  overflow: hidden; /* はみ出した部分を隠す */
-}
-
-/* スライドのスタイル */
-.swiper-slide {
-  display: flex; /* 中央揃え */
-  align-items: center; /* 垂直中央 */
-  justify-content: center; /* 水平中央 */
-  color: var(--main-color); /* テキストの色 */
-  font-size: 2rem; /* フォントサイズ */
-  position: absolute; /* スライドを重ねる */
-  top: 0; /* 上部に位置 */
-  left: 0; /* 左部に位置 */
-  width: 100%;
-  height: 100%;
-}
-
-/* スライド内の画像のスタイル */
-.swiper-slide img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* アスペクト比を維持してカバーする */
-  transform: translate(-50%, -50%); /* 中央揃え */
-  z-index: -1; /* 画像を背面に配置 */
-}
-
