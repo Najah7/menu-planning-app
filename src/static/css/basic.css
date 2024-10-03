@@ -1,6 +1,6 @@
 :root {
   --main-color: #fff;
-  --accent-color: #9B0000;
+  --accent-color: #9b0000;
   --sub-color: #333333;
 }
 
@@ -9,8 +9,6 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-
 
 header {
   display: flex;
@@ -54,7 +52,7 @@ form {
 form p {
   text-align: center;
   width: 100%;
-  margin: .5rem 0;
+  margin: 0.5rem 0;
 }
 
 form p input {
@@ -83,8 +81,6 @@ form p input:hover {
   box-shadow: 0 4px 10px rgba(0, 123, 255, 0.1);
 }
 
-
-
 form p span {
   display: block; /* Forces the content to start on a new line */
   margin: 0;
@@ -101,7 +97,6 @@ form ul li {
   list-style: none;
   font-size: small;
 }
-
 
 .header h1 {
   font-size: 24px;
@@ -127,7 +122,7 @@ form ul li {
 
 .home {
   height: 80vh;
-  place-items: center; 
+  place-items: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
   justify-content: space-evenly;
@@ -143,7 +138,6 @@ form ul li {
   width: 100%;
 }
 
-
 .home_content {
   text-align: center;
 }
@@ -156,6 +150,26 @@ form ul li {
   border-radius: 5px;
   font-size: 20px;
   margin: 20px 10px;
+}
+
+.floating_btn {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 20px 10px;
+  position: fixed;
+  z-index: 9999;
+  right: 40px;
+  bottom: 40px;
+  text-decoration: none;
+}
+
+.floating_btn.logout {
+  top: 80px;
+  bottom: auto;
 }
 
 .public_home_title {
@@ -172,7 +186,6 @@ form ul li {
   font-size: 4rem;
   font-weight: bold;
 }
-
 
 .recipies {
   display: grid;

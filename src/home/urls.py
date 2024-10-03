@@ -31,4 +31,19 @@ urlpatterns = [
         views.WeeklyRecipeListView.as_view(),
         name="weekly_recipe_list",
     ),
+    path(
+        "add_weekly_list/",
+        login_required(views.ApplyWeeklyList),
+        name="add_weekly_list",
+    ),
+    path(
+        "add_recipe/",
+        login_required(views.AddRecipeToList),
+        name="add_recipe",
+    ),
+    path(
+        "clear_personal/",
+        login_required(views.ClearPersonal),
+        name="clear_personal",
+    ),
 ]

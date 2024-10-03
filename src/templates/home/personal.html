@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load home_extras %}
 
 {% block title %}
 Personal
@@ -6,7 +7,29 @@ Personal
 
 {% block content %}
 <h2>Welcome {{ user.first_name }}</h2>
+
+<a href="{% url 'home:clear_personal' %}" class="floating_btn">Clear</a>
+
+{% if exists %}
+  <div>
+    <h2>Recipes</h2>
+    {% if item1 != None %}<p>Day 1: <a href="{{link1}}">{{item1}}</a><img src="{{img1}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+    {% if item2 != None %}<p>Day 2: <a href="{{link2}}">{{item2}}</a><img src="{{img2}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+    {% if item3 != None %}<p>Day 3: <a href="{{link3}}">{{item3}}</a><img src="{{img3}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+    {% if item4 != None %}<p>Day 4: <a href="{{link4}}">{{item4}}</a><img src="{{img4}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+    {% if item5 != None %}<p>Day 5: <a href="{{link5}}">{{item5}}</a><img src="{{img5}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+    {% if item6 != None %}<p>Day 6: <a href="{{link6}}">{{item6}}</a><img src="{{img6}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+    {% if item7 != None %}<p>Day 7: <a href="{{link7}}">{{item7}}</a><img src="{{img7}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+  </div>
+  <div>
+    <h2>Ingredients</h2>
+    {% for ingredient in ingredients %}
+      <p>{{ingredient}}</p>
+    {% endfor %}
+  </div>
+{% endif %}
+
 <form method="post" action="{% url 'accounts:logout' %}"> {% csrf_token %}
-  <input type="submit" value="Logout">
+  <input class="floating_btn logout" type="submit" value="Logout">
 </form>
 {% endblock %}

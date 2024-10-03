@@ -1,8 +1,7 @@
 from os import path
-from wsgiref.util import request_uri
 
 from conf.settings import BASE_DIR
-from django.core.management.base import BaseCommand, CommandError
+from django.core.management.base import BaseCommand
 from home.models import IngredientCategory, IngredientsToRecipe, RecipeBook
 
 
