@@ -42,8 +42,11 @@ class WeeklyRecipeListView(TemplateView):
     
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
+
         s = self.request.GET.get("s")
-        if s is None:  
-            context['weekly_recipes'] = self.get_weekly_recipe()
-        context['weekly_recipes'] = self.get_weekly_recipe(seed = s)
+        if s is '' or "s" not in self.request.GET:  
+            context['weekly_recipes'] = self.get_weekly_recipe(random.randint(1, 999)) 
+        else:
+            context['weekly_recipes'] = self.get_weekly_recipe(seed=int(s))
+
         return context
