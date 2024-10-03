@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<main class="home">
+  <div class="private_home_img">
+    <img src="{% static 'img/character.png' %}" alt="veggies" />
+  </div>
+  <div class="home_content">
+    <h1 class="private_home_title">Let's plan <br> weekly menus</h1>
+    <button class="home_btn" onclick='location.href="/";'>Start</button>
+  </div>
+</main>
+{% endblock %}

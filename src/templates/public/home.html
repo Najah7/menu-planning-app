@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+<main class="home">
+  <div class="public_home_img">
+    <img src="{% static 'img/veggies.png' %}" alt="veggies" />
+  </div>
+  <div class="home_content">
+    <h1 class="public_home_title">WeeklyBites</h1>
+    <h2 class="public_home_subtitle">Discover new recipes every week!</h2>
+    <button class="home_btn" onclick='location.href="/accounts/create/";'>Singup</button>
+    <button class="home_btn" onclick='location.href="/accounts/login/";'>Login</button>
+  </div>
+
+</main>
+{% endblock %}
