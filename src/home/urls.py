@@ -13,12 +13,12 @@ urlpatterns = [
     ),
     path(
         "recipes/",
-        login_required(views.RecipeListView.as_view()),
+        views.RecipeListView.as_view(),
         name="recipe_list",
     ),
     path(
         "recipes/<int:pk>",
-        login_required(views.RecipeDetailView.as_view()),
+        views.RecipeDetailView.as_view(),
         name="recipe_detail",
     ),
     path(
@@ -29,6 +29,6 @@ urlpatterns = [
     path(
         "weekly_recipe_list/",
         views.WeeklyRecipeListView.as_view(),
-        name='weekly_recipe_list',
+        name="weekly_recipe_list",
     ),
 ]
