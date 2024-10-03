@@ -1,10 +1,23 @@
+:root {
+  --main-color: #fff;
+  --accent-color: #9B0000;
+  --sub-color: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #333;
-  color: white;
+  color: var(--main-color);
 }
 
 nav ul {
@@ -19,7 +32,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: var(--main-color);
   text-decoration: none;
   margin: 0 15px;
   font-size: 18px;
@@ -42,6 +55,54 @@ nav ul li a:hover {
 .header .logo {
   display: flex;
   align-items: center;
+}
+
+.home {
+  height: 80vh;
+  place-items: center; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 5rem;
+}
+
+.public_home_img img {
+  width: 90%;
+}
+
+.private_home_img img {
+  width: 100%;
+}
+
+
+.home_content {
+  text-align: center;
+}
+
+.home_btn {
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  margin: 20px 10px;
+}
+
+.public_home_title {
+  font-size: 4.5rem;
+  font-weight: bold;
+}
+
+.public_home_subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.private_home_title {
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 
@@ -81,5 +142,36 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
+/* 背景スライダーのサイズを設定 */
+.swiper {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* 高さを全画面に設定 */
+  overflow: hidden; /* はみ出した部分を隠す */
+}
 
+/* スライドのスタイル */
+.swiper-slide {
+  display: flex; /* 中央揃え */
+  align-items: center; /* 垂直中央 */
+  justify-content: center; /* 水平中央 */
+  color: var(--main-color); /* テキストの色 */
+  font-size: 2rem; /* フォントサイズ */
+  position: absolute; /* スライドを重ねる */
+  top: 0; /* 上部に位置 */
+  left: 0; /* 左部に位置 */
+  width: 100%;
+  height: 100%;
+}
 
+/* スライド内の画像のスタイル */
+.swiper-slide img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* アスペクト比を維持してカバーする */
+  transform: translate(-50%, -50%); /* 中央揃え */
+  z-index: -1; /* 画像を背面に配置 */
+}
