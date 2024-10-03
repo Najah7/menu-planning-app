@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     # Local apps
     "home.apps.HomeConfig",
     "lib.apps.LibConfig",
+    "external.apps.ExternalConfig",
     # Django apps
     "django.contrib.admin",
     "django.contrib.auth",
