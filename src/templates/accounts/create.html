@@ -5,9 +5,9 @@ Sign up
 {% endblock %}
 
 {% block content %}
-<h2>Create a new account</h2>
+<h2 class="title">Create a new account</h2>
 <form method="post"> {% csrf_token %}
   {{ form.as_p }}
-  <input type="submit" id="save" value="Create">
+  <input class="home_btn" type="submit" id="save" value="Create">
 </form>
 {% endblock %}
