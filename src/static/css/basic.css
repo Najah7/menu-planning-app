@@ -29,10 +29,25 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header .logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
 
 .recipies {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: auto auto auto;
   justify-content: space-evenly;
 }
 
@@ -51,7 +66,8 @@ nav ul li a:hover {
 }
 
 .recipe_details_img {
-  width: 50%;
+  margin: 1rem 0;
+  width: 35%;
   border: 2px solid;
 }
 
@@ -65,17 +81,5 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-.header .logo {
-  display: flex;
-  align-items: center;
-}
 
-.header .logo img {
-  height: 50px;
-  margin-right: 10px;
-}
 
-.header h1 {
-  font-size: 24px;
-  margin: 0;
-}
