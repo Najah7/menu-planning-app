@@ -45,6 +45,7 @@ class Migration(migrations.Migration):
                 ),
                 ("img", models.URLField(verbose_name="image")),
                 ("ingredients", models.TextField(verbose_name="ingredients")),
+                ("link", models.URLField(verbose_name="link")),
             ],
         ),
         migrations.CreateModel(
