@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Ingredients List
+{% endblock %}
+
+{% block content %}
+
+{% regroup items by category as category_list %}
+
+{% for category in category_list %}
+<h1> {{category.grouper.name}} </h1>
+  <div class="recipies">
+    {% for item in category.list %}
+    <div class="recipe_item" onclick='location.href="/home/recipes/{{item.recipe.id}}";'>
+      <p> {{item.recipe}} </p>
+      <img src="{{item.recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*">
+    </div>
+    {% endfor %}
+  </div>
+  {% endfor %}
+
+{% endblock %}

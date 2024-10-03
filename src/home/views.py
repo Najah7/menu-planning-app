@@ -9,7 +9,7 @@ from django.http.response import HttpResponse as HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import DetailView, ListView, TemplateView
 
-from .models import RecipeBook, WeeklyMenu
+from .models import IngredientsToRecipe, RecipeBook, WeeklyMenu
 
 
 class RecipeListView(ListView):
@@ -183,3 +183,12 @@ class WeeklyRecipeListView(TemplateView):
         context["item_list"] = "-".join([str(item["id"]) for item in items])
 
         return context
+
+
+class IngredientsListView(ListView):
+    model = IngredientsToRecipe
+    template_name = "home/ingredient_list.html"
+    context_object_name = "items"
+
+    def get_queryset(self) -> QuerySet[Any]:
+        return super().get_queryset().order_by("category")

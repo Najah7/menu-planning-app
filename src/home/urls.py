@@ -17,6 +17,11 @@ urlpatterns = [
         name="recipe_list",
     ),
     path(
+        "ingredients_list/",
+        views.IngredientsListView.as_view(),
+        name="ingredients_list",
+    ),
+    path(
         "recipes/<int:pk>",
         views.RecipeDetailView.as_view(),
         name="recipe_detail",
