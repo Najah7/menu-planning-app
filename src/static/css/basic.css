@@ -29,6 +29,21 @@ nav ul li a:hover {
   text-decoration: underline;
 }
 
+.header h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+.header .logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.header .logo {
+  display: flex;
+  align-items: center;
+}
+
 
 .recipies {
   display: grid;
@@ -65,17 +80,5 @@ nav ul li a:hover {
   font-weight: bold;
 }
 
-.header .logo {
-  display: flex;
-  align-items: center;
-}
 
-.header .logo img {
-  height: 50px;
-  margin-right: 10px;
-}
 
-.header h1 {
-  font-size: 24px;
-  margin: 0;
-}
