@@ -13,3 +13,22 @@
   justify-content: center;
   text-align: center;
 }
+
+.recipe_details {
+  text-align: center;
+}
+
+.recipe_details_img {
+  width: 50%;
+  border: 2px solid;
+}
+
+.recipe_details_title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.recipe_details_link {
+  font-size: 15px;
+  font-weight: bold;
+}
