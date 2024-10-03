@@ -35,6 +35,7 @@ INSTALLED_APPS = [
     "home.apps.HomeConfig",
     "lib.apps.LibConfig",
     "external.apps.ExternalConfig",
+    "accounts.apps.AccountsConfig",
     # Django apps
     "django.contrib.admin",
     "django.contrib.auth",
@@ -119,7 +120,6 @@ USE_TZ = True
 APPEND_SLASH = False
 
 
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
@@ -127,6 +127,9 @@ STATIC_URL = "static/"
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+
+LOGIN_URL = "/accounts/login/"
+LOGIN_REDIRECT_URL = "/home/personal/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field

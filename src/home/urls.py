@@ -1,3 +1,4 @@
+from django.contrib.auth.decorators import login_required
 from django.urls import path
 
 from . import views
@@ -13,5 +14,10 @@ urlpatterns = [
         "<int:pk>",
         views.RecipeDetailView.as_view(),
         name="recipe_detail",
+    ),
+    path(
+        "personal/",
+        login_required(views.PersonalView.as_view()),
+        name="personal",
     ),
 ]
