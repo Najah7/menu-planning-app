@@ -10,9 +10,6 @@
   box-sizing: border-box;
 }
 
-#content {
-  margin: 0 10%;
-}
 
 
 header {
@@ -47,6 +44,7 @@ nav ul li a:hover {
 }
 
 form {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +52,7 @@ form {
 }
 
 form p {
+  text-align: center;
   width: 100%;
   margin: .5rem 0;
 }
@@ -84,10 +83,7 @@ form p input:hover {
   box-shadow: 0 4px 10px rgba(0, 123, 255, 0.1);
 }
 
-form p span::before {
-  content: "※ ";
-  color: red;
-}
+
 
 form p span {
   display: block; /* Forces the content to start on a new line */
@@ -98,6 +94,7 @@ form ul {
   width: 100%;
   margin: 0;
   text-align: left;
+  text-align: center;
 }
 
 form ul li {
