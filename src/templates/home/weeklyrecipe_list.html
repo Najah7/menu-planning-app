@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block title %} Weekly Recipe List {% endblock %} 
+{% block content %}
+
+<div class="recipies">
+  {% for recipe in weekly_recipes %}
+  <div class="recipe_item" onclick='location.href="/home/{{recipe.id}}";'>
+    <p>{{recipe.recipeName}}</p>
+    <img
+      src="{{recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"
+    />
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}
