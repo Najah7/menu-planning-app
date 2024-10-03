@@ -7,5 +7,6 @@ urlpatterns = [
     path(
         "rakuten/ichiba/item-search/",
         views.RakutenIchibaRedirectView.as_view(),
+        name="rakuten_ichiba_item_search",
     ),
 ]
