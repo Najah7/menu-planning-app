@@ -168,8 +168,9 @@ form ul li {
 }
 
 .floating_btn.logout {
-  top: 80px;
+  top: 30rem;
   bottom: auto;
+  padding: 13px 14px;
 }
 
 .public_home_title {
@@ -190,8 +191,10 @@ form ul li {
 .recipies {
   margin-top: 1rem;
   display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-evenly;
+  /*grid-template-columns: auto auto auto;*/
+  /*justify-content: space-evenly;*/
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
 }
 
 .recipe_item {
@@ -255,4 +258,34 @@ form ul li {
   font-size: 1.2rem;
   font-weight: bold;
   margin-left: .5rem;
+}
+
+.category_name {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.personal_name{
+  text-align: center;
+}
+
+.personal_recipe_name{
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.personal_recipe {
+  margin: 1.5rem 0;
+  display: flex;
+}
+
+.personal_ingredients_name{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.personal_ingredients{
+  margin: 0;
+  text-align: center;
 }

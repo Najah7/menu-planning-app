@@ -6,25 +6,25 @@ Personal
 {% endblock %}
 
 {% block content %}
-<h2>Welcome {{ user.first_name }}</h2>
+<h2 class="personal_name">Welcome {{ user.first_name }}</h2>
 
 <a href="{% url 'home:clear_personal' %}" class="floating_btn">Clear</a>
 
 {% if exists %}
-  <div>
-    <h2>Recipes</h2>
-    {% if item1 != None %}<p>Day 1: <a href="{{link1}}">{{item1}}</a><img src="{{img1}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
-    {% if item2 != None %}<p>Day 2: <a href="{{link2}}">{{item2}}</a><img src="{{img2}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
-    {% if item3 != None %}<p>Day 3: <a href="{{link3}}">{{item3}}</a><img src="{{img3}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
-    {% if item4 != None %}<p>Day 4: <a href="{{link4}}">{{item4}}</a><img src="{{img4}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
-    {% if item5 != None %}<p>Day 5: <a href="{{link5}}">{{item5}}</a><img src="{{img5}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
-    {% if item6 != None %}<p>Day 6: <a href="{{link6}}">{{item6}}</a><img src="{{img6}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
-    {% if item7 != None %}<p>Day 7: <a href="{{link7}}">{{item7}}</a><img src="{{img7}}?interpolation=lanczos-none&fit=around|40:40&crop=40:40;*,*"></p>{% endif %}
+  <h2 class="personal_recipe_name">Recipes</h2>
+  <div class="recipies">
+    {% if item1 != None %}<div class="recipe_item"><p>Day 1: <br><a href="{{link1}}"><p class="recipe_item_name">{{item1}}</p></a><img class="recipe_item_img" src="{{img1}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
+    {% if item1 != None %}<div class="recipe_item"><p>Day 2: <br><a href="{{link2}}"><p class="recipe_item_name">{{item2}}</p></a><img class="recipe_item_img" src="{{img2}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
+    {% if item3 != None %}<div class="recipe_item"><p>Day 3: <br><a href="{{link3}}"><p class="recipe_item_name">{{item3}}</p></a><img class="recipe_item_img" src="{{img3}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
+    {% if item4 != None %}<div class="recipe_item"><p>Day 4: <br><a href="{{link4}}"><p class="recipe_item_name">{{item4}}</p></a><img class="recipe_item_img" src="{{img4}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
+    {% if item5 != None %}<div class="recipe_item"><p>Day 5: <br><a href="{{link5}}"><p class="recipe_item_name">{{item5}}</p></a><img class="recipe_item_img" src="{{img5}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
+    {% if item6 != None %}<div class="recipe_item"><p>Day 6: <br><a href="{{link6}}"><p class="recipe_item_name">{{item6}}</p></a><img class="recipe_item_img" src="{{img6}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
+    {% if item7 != None %}<div class="recipe_item"><p>Day 7: <br><a href="{{link7}}"><p class="recipe_item_name">{{item7}}</p></a><img class="recipe_item_img" src="{{img7}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
   </div>
   <div>
-    <h2>Ingredients</h2>
+    <h2 class="personal_ingredients_name">Ingredients</h2>
     {% for ingredient in ingredients %}
-      <p>{{ingredient}}</p>
+      <p class="personal_ingredients">{{ingredient}}</p>
     {% endfor %}
   </div>
 {% endif %}
