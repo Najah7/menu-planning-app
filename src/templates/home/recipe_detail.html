@@ -11,12 +11,16 @@
 <img class="recipe_details_img" src="{{recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*">
 <h1 class="recipe_details_title">{{recipe.recipeName}}</h1>
 {% with recipe.ingredients|split:"、" as ingredients %}
+  <ul class="recipe_details_ingredients">
   {% for ingredient in ingredients %}
-    <a class="recipe_details_link" href="{% url 'external:rakuten_ichiba_item_search' %}?grocery_name={{ ingredient }}" target="_blank">
-      {{ ingredient }}
+    <li class="recipe_details_ingredient">
+    <p>{{ ingredient }} </p>
+    <a href="{% url 'external:rakuten_ichiba_item_search' %}?grocery_name={{ ingredient }}" target="_blank">
+      Buy in Rakuten Ichiba
     </a>
-    <br>
+    </li>
   {% endfor %}
+  </ul>
 {% endwith %}
 </div>
 <a href="{% url 'home:add_recipe' %}?q={{recipe.pk}}" class="floating_btn" type="submit">Add to List</a>

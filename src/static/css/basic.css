@@ -188,6 +188,7 @@ form ul li {
 }
 
 .recipies {
+  margin-top: 1rem;
   display: grid;
   grid-template-columns: auto auto auto;
   justify-content: space-evenly;
@@ -197,11 +198,26 @@ form ul li {
   display: grid;
   border: 2px solid;
   border-color: black;
-  margin: 3px;
-  padding: 3px;
+  margin: .5rem 1rem;
   justify-content: center;
   text-align: center;
 }
+
+.recipe_item_name {
+  width: 100%;
+  padding: .3rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  overflow-wrap: break-word;
+}
+
+.recipe_item_img {
+  width: 100%;
+  margin: 0;
+  border-top: black 1px solid;
+  border-bottom: black 1px solid;
+}
+
 
 .recipe_details {
   text-align: center;
@@ -218,7 +234,25 @@ form ul li {
   font-weight: bold;
 }
 
-.recipe_details_link {
-  font-size: 15px;
+.recipe_details_ingredients {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.recipe_details_ingredients > li {
+  display: flex;
+  align-items: center;
+}
+
+.recipe_details_ingredients > li > p {
+  font-size: 1.5rem;
   font-weight: bold;
+  margin: .3rem 0;
+}
+
+.recipe_details_ingredients > li > a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: .5rem;
 }
