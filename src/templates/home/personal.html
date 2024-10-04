@@ -20,13 +20,18 @@ Personal
   </div>
   <div>
     <h2 class="personal_ingredients_name">Ingredients</h2>
+    <ul class="recipe_details_ingredients">
     {% for ingredient in ingredients %}
-      <p class="personal_ingredients">
-        <a class="recipe_details_link" href="{% url 'external:rakuten_ichiba_item_search' %}?grocery_name={{ ingredient }}" target="_blank">
-          {{ingredient}}
-        </a>
-      </p>
+      {% if ingredient != '' %}
+      <li class="recipe_details_ingredient">
+      <p>{{ ingredient }} </p>
+      <a class="recipe_details_link" href="{% url 'external:rakuten_ichiba_item_search' %}?grocery_name={{ ingredient }}" target="_blank">
+        Buy in Rakuten Ichiba
+      </a>
+      </li>
+      {% endif %}
     {% endfor %}
+    </ul>
   </div>
 {% else %}
   <p>Explore the weekly recipes!</p>
