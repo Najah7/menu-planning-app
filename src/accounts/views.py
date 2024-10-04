@@ -13,7 +13,7 @@ class CreateUserView(CreateView):
     model = models.User
     form_class = forms.UserCreationForm
     template_name = "accounts/create.html"
-    success_url = reverse_lazy("home:login")
+    success_url = reverse_lazy("accounts:login")
 
 
 class LogoutView(views.LogoutView):

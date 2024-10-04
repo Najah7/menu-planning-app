@@ -1,8 +1,7 @@
 from os import path
-from wsgiref.util import request_uri
 
 from conf.settings import BASE_DIR
-from django.core.management.base import BaseCommand, CommandError
+from django.core.management.base import BaseCommand
 from home.models import IngredientCategory, IngredientsToRecipe, RecipeBook
 
 
@@ -24,11 +23,12 @@ class Command(BaseCommand):
             encoding="utf-8",
         ) as file:
             for line in file.readlines()[1:]:
-                name, img, ingredients = line.split(",")
+                name, img, ingredients, link = line.split(",")
                 item = book.create(
                     recipeName=name,
                     img=img,
                     ingredients=ingredients,
+                    link=link,
                 )
 
                 for category in IngredientCategory.objects.all():

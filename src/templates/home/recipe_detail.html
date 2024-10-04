@@ -23,5 +23,6 @@
   </ul>
 {% endwith %}
 </div>
+<a href="{% url 'home:add_recipe' %}?q={{recipe.pk}}" class="floating_btn" type="submit">Add to List</a>
 
 {% endblock %}

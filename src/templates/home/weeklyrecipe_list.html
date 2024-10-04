@@ -12,5 +12,6 @@
   </div>
   {% endfor %}
 </div>
+<a href="{% url 'home:add_weekly_list' %}?q={{item_list}}" class="floating_btn" type="submit">Add to List</a>
 
 {% endblock %}
