@@ -9,8 +9,8 @@ Recipe List
 <div class="recipies">
   {% for recipe in recipes %}
   <div class="recipe_item" onclick='location.href="/home/recipes/{{recipe.id}}";'>
-    <p> {{recipe.recipeName}} </p>
-    <img src="{{recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*">
+    <p class="recipe_item_name"> {{recipe.recipeName}} </p>
+    <img class="recipe_item_img" src="{{recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*">
   </div>
   {% endfor %}
 </div>
