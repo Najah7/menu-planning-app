@@ -9,10 +9,10 @@ Personal
 {% block content %}
 <h2 class="personal_page_text">Welcome {{ user.first_name }}</h2>
 
-<a class="floating_btn" href="{% url 'home:clear_personal' %}">Clear</a>
-<a class="floating_btn share" href="{% url 'home:share' %}?items={{item_list}}" onclick="copyText()" target="_blank">Share</a>
-
 {% if exists %}
+  <a class="floating_btn" href="{% url 'home:clear_personal' %}">Clear</a>
+  <a class="floating_btn share" href="{% url 'home:share' %}?items={{item_list}}" onclick="copyText()" target="_blank">Share</a>
+
   <h2 class="personal_recipe_name">Recipes</h2>
   <div class="recipies">
     {% for index, recipe in recipes|doEnumerate %}
@@ -35,8 +35,11 @@ Personal
     </ul>
   </div>
 {% else %}
-  <p class="personal_page_text">Explore the weekly recipes!</p>
-  <img class="personal_page_non_exist_img" src="{% static 'img/veggies.png' %}" alt="veggies" />
+  <div class="home_content">
+    <p class="personal_page_text">Explore the weekly recipes!</p>
+    <img class="personal_page_non_exist_img" src="{% static 'img/veggies.png' %}" alt="veggies" />
+    <button class="home_btn" onclick='location.href="/home/recipes/";'>Start</button>
+  </div>
 {% endif %}
 
 <form method="post" action="{% url 'accounts:logout' %}"> {% csrf_token %}
