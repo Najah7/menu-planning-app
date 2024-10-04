@@ -9,7 +9,7 @@ Personal
 <h2 class="personal_name">Welcome {{ user.first_name }}</h2>
 
 <a class="floating_btn" href="{% url 'home:clear_personal' %}">Clear</a>
-<a class="floating_btn share" href="{% url 'home:share' %}?items={{item_list}}">share</a>
+<a class="floating_btn share" href="{% url 'home:share' %}?items={{item_list}}" onclick="copyText()" target="_blank">Share</a>
 
 {% if exists %}
   <h2 class="personal_recipe_name">Recipes</h2>
@@ -35,4 +35,12 @@ Personal
 <form method="post" action="{% url 'accounts:logout' %}"> {% csrf_token %}
   <input class="floating_btn logout" type="submit" value="Logout">
 </form>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  function copyText() {
+    navigator.clipboard.writeText(document.getElementsByClassName("floating_btn share")[0].href);
+  }
+</script>
 {% endblock %}
