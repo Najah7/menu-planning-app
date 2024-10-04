@@ -293,3 +293,15 @@ form ul li {
   margin: 0;
   text-align: center;
 }
+
+.personal_page_text {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.personal_page_non_exist_img {
+  display: block;
+  margin: 0 auto;
+  width: 30rem;
+}
