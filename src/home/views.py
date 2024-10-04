@@ -31,30 +31,30 @@ class PersonalView(ListView):
     def get_context_data(self, **kwargs: Any) -> dict[str, Any]:
         context = super().get_context_data(**kwargs)
         book = RecipeBook.objects
-        menu = WeeklyMenu.objects.filter(owner=self.request.user).values()
         context["exists"] = True
 
-        if len(menu) == 0:
+        if not WeeklyMenu.objects.filter(owner=self.request.user).exists():
             context["exists"] = False
             return context
 
-        for idx in range(7):
-            if menu[0][f"day{idx+1}_id"] != None:
-                context[f"item{idx+1}"] = book.filter(
-                    id=menu[0][f"day{idx+1}_id"]
-                ).values()[0]["recipeName"]
-                context[f"link{idx+1}"] = book.filter(
-                    id=menu[0][f"day{idx+1}_id"]
-                ).values()[0]["link"]
-                context[f"img{idx+1}"] = book.filter(
-                    id=menu[0][f"day{idx+1}_id"]
-                ).values()[0]["img"]
+        menu = WeeklyMenu.objects.get(owner=self.request.user)
+        context["menu"] = menu
+        context["recipes"] = book.filter(
+            id__in=[menu.__getattribute__(f"day{i+1}_id") for i in range(7)]
+        ).values()
+        context["item_list"] = "-".join(
+            [
+                str(menu.__getattribute__(f"day{i+1}_id"))
+                for i in range(7)
+                if menu.__getattribute__(f"day{i+1}_id") != None
+            ]
+        )
 
         ingredients = list()
         for idx in range(7):
-            if menu[0][f"day{idx+1}_id"] != None:
+            if menu.__getattribute__(f"day{idx+1}_id") != None:
                 ingredients.extend(
-                    book.filter(id=menu[0][f"day{idx+1}_id"])
+                    book.filter(id=menu.__getattribute__(f"day{idx+1}_id"))
                     .values()[0]["ingredients"]
                     .strip()
                     .split("、")
@@ -99,12 +99,12 @@ def ApplyWeeklyList(request):
     finally:
         menu.create(
             day1=items[0],
-            day2=items[1],
-            day3=items[2],
-            day4=items[3],
-            day5=items[4],
-            day6=items[5],
-            day7=items[6],
+            day2=items[1] if len(items) >= 2 else None,
+            day3=items[2] if len(items) >= 3 else None,
+            day4=items[3] if len(items) >= 4 else None,
+            day5=items[4] if len(items) >= 5 else None,
+            day6=items[5] if len(items) >= 6 else None,
+            day7=items[6] if len(items) == 7 else None,
             owner=request.user,
         )
 

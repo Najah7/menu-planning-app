@@ -8,25 +8,28 @@ Personal
 {% block content %}
 <h2 class="personal_name">Welcome {{ user.first_name }}</h2>
 
-<a href="{% url 'home:clear_personal' %}" class="floating_btn">Clear</a>
+<a class="floating_btn" href="{% url 'home:clear_personal' %}">Clear</a>
+<a class="floating_btn share" href="{% url 'home:share' %}?items={{item_list}}">share</a>
 
 {% if exists %}
   <h2 class="personal_recipe_name">Recipes</h2>
   <div class="recipies">
-    {% if item1 != None %}<div class="recipe_item"><p>Day 1: <br><a href="{{link1}}"><p class="recipe_item_name">{{item1}}</p></a><img class="recipe_item_img" src="{{img1}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
-    {% if item1 != None %}<div class="recipe_item"><p>Day 2: <br><a href="{{link2}}"><p class="recipe_item_name">{{item2}}</p></a><img class="recipe_item_img" src="{{img2}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
-    {% if item3 != None %}<div class="recipe_item"><p>Day 3: <br><a href="{{link3}}"><p class="recipe_item_name">{{item3}}</p></a><img class="recipe_item_img" src="{{img3}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
-    {% if item4 != None %}<div class="recipe_item"><p>Day 4: <br><a href="{{link4}}"><p class="recipe_item_name">{{item4}}</p></a><img class="recipe_item_img" src="{{img4}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
-    {% if item5 != None %}<div class="recipe_item"><p>Day 5: <br><a href="{{link5}}"><p class="recipe_item_name">{{item5}}</p></a><img class="recipe_item_img" src="{{img5}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
-    {% if item6 != None %}<div class="recipe_item"><p>Day 6: <br><a href="{{link6}}"><p class="recipe_item_name">{{item6}}</p></a><img class="recipe_item_img" src="{{img6}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
-    {% if item7 != None %}<div class="recipe_item"><p>Day 7: <br><a href="{{link7}}"><p class="recipe_item_name">{{item7}}</p></a><img class="recipe_item_img" src="{{img7}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p>{% endif %}</div>
+    {% for index, recipe in recipes|doEnumerate %}
+      <div class="recipe_item"><p>Day {{index|add:1}}: <br><a href="{{recipe.link}}"><p class="recipe_item_name">{{recipe.recipeName}}</p></a><img class="recipe_item_img" src="{{recipe.img}}?interpolation=lanczos-none&fit=around|320:320&crop=320:320;*,*"></p></div>
+    {% endfor %}
   </div>
   <div>
     <h2 class="personal_ingredients_name">Ingredients</h2>
     {% for ingredient in ingredients %}
-      <p class="personal_ingredients">{{ingredient}}</p>
+      <p class="personal_ingredients">
+        <a class="recipe_details_link" href="{% url 'external:rakuten_ichiba_item_search' %}?grocery_name={{ ingredient }}" target="_blank">
+          {{ingredient}}
+        </a>
+      </p>
     {% endfor %}
   </div>
+{% else %}
+  <p>Explore the weekly recipes!</p>
 {% endif %}
 
 <form method="post" action="{% url 'accounts:logout' %}"> {% csrf_token %}
