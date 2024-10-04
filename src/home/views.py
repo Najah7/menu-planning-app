@@ -192,3 +192,19 @@ class IngredientsListView(ListView):
 
     def get_queryset(self) -> QuerySet[Any]:
         return super().get_queryset().order_by("category")
+
+
+class ShareListView(TemplateView):
+    template_name = "home/weeklyrecipe_list.html"
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+
+        itemsQuery = self.request.GET.get("items")
+        items = RecipeBook.objects.filter(
+            id__in=[int(_i) for _i in itemsQuery.split("-")]
+        ).values()
+        context["weekly_recipes"] = items
+        context["item_list"] = "-".join([str(item["id"]) for item in items])
+
+        return context

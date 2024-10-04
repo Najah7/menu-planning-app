@@ -51,4 +51,9 @@ urlpatterns = [
         login_required(views.ClearPersonal),
         name="clear_personal",
     ),
+    path(
+        "share/",
+        views.ShareListView.as_view(),
+        name="share",
+    ),
 ]
